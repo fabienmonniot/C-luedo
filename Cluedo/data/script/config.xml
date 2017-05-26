@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config>
+	<Sentences>
+		<GetLastGame>Souhaitez-vous reprendre la dernière partie démarrée le [DAY]/[MONTH]/[YEAR] à [HOUR]h[MINUTE]m ?</GetLastGame>
+		<ScriptTitle>SCENARIOS</ScriptTitle>
+		<ChooseScript>Veuillez choisir un scénario</ChooseScript>
+		<AskNumber>Veuillez entrer un entier compris dans la liste (entre [X] et [Y]).</AskNumber>
+		<YesOrNo>(o/n)</YesOrNo>
+	</Sentences>
+</Config>

@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Cluedo.NPC">
+    <Position X="8.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAEABAAAIYAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>NPC.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cluedo.Program">
+    <Position X="0.5" Y="7.25" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAQAQAARBIAgCABBUBEgAgAAScAAAEBAAAigQ=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cluedo.Room">
+    <Position X="18.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAEAQIAAEAgAAAEAAAAAAQAAhgAAgAAAAACAACADAA=</HashCode>
+      <FileName>Room.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cluedo.Weapon">
+    <Position X="14.25" Y="8" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAgIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Weapon.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Cluedo.Item">
+    <Position X="14" Y="3.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAQAAAAgAAgMABAAAAQAAAAAEAAAAAAAAAAAEIA=</HashCode>
+      <FileName>Item.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Cluedo.Suspect">
+    <Position X="10.75" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AEBAIAEAAAAgAAgAAAAAAIAAAIAQACAAAEAIAAAAEIA=</HashCode>
+      <FileName>Suspect.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Cluedo.Policeman">
+    <Position X="7.75" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAQARAAAAAAAAAAAABAIAQAIAAACAEAA=</HashCode>
+      <FileName>Policeman.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cluedo.Game">
+    <Position X="3.75" Y="0.5" Width="3.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AgcQAJAAAIRIAhUAAAgCAEBAAAIQAiCOpgAAAwAgAIA=</HashCode>
+      <FileName>Game.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cluedo.CluedoAction">
+    <Position X="1" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAIAAAIAAACAAAAAAA=</HashCode>
+      <FileName>CluedoAction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Cluedo.ICollectible">
+    <Position X="18.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ICollectible.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Cluedo.IObservable">
+    <Position X="14.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAgAAgAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>IObservable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Cluedo.Actions">
+    <Position X="1.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIBIAggIAAAAAQAAAAAQAAAAAEAAAAEAAAA=</HashCode>
+      <FileName>CluedoAction.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="Cluedo.DoAction" Collapsed="true">
+    <Position X="1.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CluedoAction.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

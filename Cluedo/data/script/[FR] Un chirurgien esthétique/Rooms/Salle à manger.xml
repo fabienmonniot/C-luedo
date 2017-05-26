@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Room>
+	<Name>Salle à manger</Name>
+	<Description>
+		Dans la salle à manger, vous trouvez une grande table entourée de sept chaises. Madame Leblanc, assise face à la cheminée, regarde incessamment la grande vitrine qui se trouve à l’autre bout de la pièce.
+	</Description>
+	<Neighbors>
+		<Room>
+			<Name>Cuisine</Name>
+		</Room>
+		<Room>
+			<Name>Hall</Name>
+		</Room>
+		<Room>
+			<Name>Salon</Name>
+		</Room>
+	</Neighbors>
+	<Items>
+		<Item>
+			<Name>Vitrine</Name>
+			<Description>
+				Vous décidez de regarder de plus près la vieille vitrine au coin de la pièce que Mme Leblanc ne quitte pas du regard. Vous ouvrez cette vitrine et trouvez à l’intérieur un chandelier !
+			</Description>
+		</Item>
+		<Item>
+			<Name>Cheminée</Name>
+			<Description>
+				Vous passez votre tête dans la cheminée. Vous voyez juste l’obscurité et remarquez qu’un ramonage serait bien nécessaire. Mais ce n’est définitivement pas ici que vous trouverez un indice...
+			</Description>
+		</Item>
+		<Item>
+			<Name>Table</Name>
+			<ExtraTime>5</ExtraTime>
+			<Description>
+				Vous vous intéressez à la grande table au milieu de la pièce, dont plusieurs chaises sont renversées. Mais à part quelques coupes de champagnes et un beau morceau de tarte que vous engloutissez en 5 minutes, vous ne trouvez rien d’intéressant. 
+			</Description>
+		</Item>
+		<Weapon>
+			<Name>Chandelier</Name>
+			<Requirement>Vitrine</Requirement>
+			<Description>
+				Ce chandelier que Madame Leblanc observe sans interruption attire au plus haut point votre attention. En le regardant de plus près, vous vous apercevez qu’il est ébréché. Vous feriez peut-être bien de retourner voir Madame Leblanc pour lui demander des explications...
+			</Description>
+		</Weapon>
+	</Items>
+	<NPCs>
+		<Suspect>
+			<Name>Madame Leblanc</Name>
+			<ExtraTalkTime>10</ExtraTalkTime>
+			<Description>
+				Madame Leblanc est une femme pieuse, qui porte une croix autour du cou. D’un âge de 45 ans environ, elle a déjà les cheveux blancs. Elle est petite, corpulente et porte des lunettes rondes. Coquette, elle porte un tailleur blanc avec des ballerines assorties.
+			</Description>
+			<Talk>
+				Je suis très attristée par la mort de Georges. Cet homme était si bien dans sa peau, dans sa vie, et il était si passionné par son métier… Je l’ai trouvé terriblement abattu d’avoir à suspendre son activité. Le pauvre homme aurait certainement mis des mois à s’en remettre. Mais vous savez, moi je ne crois pas qu’il y ait de bonne ou de mauvaise situation. Moi, si je devais résumer ma vie aujourd’hui avec vous, je dirais que c’est d’abord des rencontres. Des gens qui m’ont tendu la main, peut-être à un moment où je ne pouvais pas, où j’étais seule chez moi. Et c’est assez curieux de se dire que les hasards, les rencontres forgent une destinée... Parce que quand on a le goût de la chose, quand on a le goût de la chose bien faite, le beau geste, parfois on ne trouve pas l’interlocuteur en face je dirais, le miroir qui vous aide à avancer. Alors ça n’est pas mon cas, comme je disais là, puisque moi au contraire, j’ai pu : et je dis merci à la vie, je lui dis merci, je chante la vie, je danse la vie... je ne suis qu’amour ! Et finalement, quand beaucoup de gens aujourd’hui me disent « Mais comment fais-tu pour avoir cette humanité ? », et bien je leur réponds très simplement, je leur dis que c’est ce goût de l’amour ce goût donc qui m’a poussé aujourd’hui à entreprendre une construction catholique, mais demain qui sait ? Peut-être simplement à me mettre au service de la communauté, à faire le don, le don de soi…"
+				Vous finissez par la stopper pour pouvoir continuer votre enquête, alors que ça fait déjà 30 minutes qu’elle vous parle.
+			</Talk>
+			<SpecialTalk>
+				<Requirement>Chandelier</Requirement>
+				<Talk>
+					J’ai offert ce chandelier hier soir à Georges, pour fêter sa retraite. C’est une véritable antiquité qui m’a coûté une fortune, et que Georges recherchait depuis très longtemps. Regardez, j’ai encore le ticket de caisse. Je ne sais pas comment cela est possible, mais il est déjà ébréché. Georges serait furieux s’il voyait son précieux cadeau dans un tel état en si peu de temps.
+				</Talk>
+			</SpecialTalk>
+		</Suspect>
+	</NPCs>
+</Room>

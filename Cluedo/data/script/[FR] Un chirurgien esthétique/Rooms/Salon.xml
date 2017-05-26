@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Room>
+	<Name>Salon</Name>
+	<Description>
+		En entrant dans le salon, vous apercevez Mademoiselle Rose affalée sur un grand canapé à côté duquel se trouve un fauteuil. Les pieds sur la table basse, elle regarde passionnément un défilé de mode sur une vieille télévision. Un piano et son tabouret sont placés d’un côté de la pièce, tandis qu’une plante orne le coin droit.
+	</Description>
+	<Neighbors>
+		<Room>
+			<Name>Salle à manger</Name>
+		</Room>
+		<Room>
+			<Name>Bureau</Name>
+		</Room>
+		<Room>
+			<Name>Hall</Name>
+		</Room>
+	</Neighbors>
+	<Items>
+		<Item>
+			<Name>Piano</Name>
+			<ExtraTime>5</ExtraTime>
+			<Description>
+				Vous vous asseyez sur le tabouret du piano et vous abandonnez à quelques notes de piano… Avant de reprendre vos esprits et de vous rendre compte que déjà 5 minutes de plus se sont écoulées ! Vous vous remettez rapidement à votre enquête.
+			</Description>
+		</Item>
+		<Item>
+			<Name>Télévision</Name>
+			<ExtraTime>5</ExtraTime>
+			<Description>
+				Vous regardez un petit quart d’heure le défilé à la télévision, tout en faisant semblant de vérifier quelque chose d’important. Il faudrait vraiment vous y mettre plus sérieusement…
+			</Description>
+		</Item>
+		<Item>
+			<Name>Canapés</Name>
+			<Description>
+				Vous avez peu de place de disponible sur les canapés, et de toute façon, si vous vous en approchez encore un peu plus, vous allez vous y étendre tout le reste de la journée...
+			</Description>
+		</Item>
+		<Item>
+			<Name>Plante</Name>
+			<Description>
+				A y voir de plus près, c’est une fausse plante en plastique. Elle est tellement pleine de poussière que vous vous convainquez qu’elle n’a pas été touchée depuis longtemps et vous éloignez rapidement.
+			</Description>
+		</Item>
+	</Items>
+	<NPCs>
+		<Suspect>
+			<Name>Mademoiselle Rose</Name>
+			<ExtraObserveTime>5</ExtraObserveTime>
+			<Description>
+				Mademoiselle Rose est une très belle jeune femme d’une vingtaine d’années. Elle porte avec élégance une longue robe rose voluptueuse, laissant imaginer ses formes à travers des volants de soie, ainsi que de vertigineux escarpins roses. 
+				Ses cheveux, d’un brun profond se dessinant en de superbes boucles, caressent avec douceur ses épaules dénudées. 
+				Son visage fin au teint rosé laisse apparaître avec splendeur des yeux de biche d’un vert émeraude, étourdissants.
+				Ses mains délicates, et ses doigts fins décorés d’un vernis rose clair vous laissent sans voix.
+				Le tintement de ses grandes boucles d’oreille vous ramène à la réalité. 
+				Reprenez-vous, ça fait déjà un quart d’heure que vous la regardez !
+			</Description>
+			<Talk>
+				Je ne pourrais jamais avoir fait une chose pareille. Georges était mon chirurgien esthétique, je lui dois beaucoup. Vous n’avez qu’à me regarder pour en juger : n’est-ce pas un corps de rêve ?
+			</Talk>
+			<SpecialTalk>
+				<Requirement>Corde</Requirement>
+				<Talk>
+					J’ai utilisé la balançoire que Georges a installé la semaine passée. J’ai d’ailleurs remarqué qu’elle était cassée, je ne sais pas pourquoi.
+				</Talk>
+			</SpecialTalk>
+		</Suspect>
+	</NPCs>
+</Room>

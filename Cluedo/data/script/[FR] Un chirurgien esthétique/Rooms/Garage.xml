@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Room>
+	<Name>Garage</Name>
+	<Description>
+		Dans le garage, une voiture bleue est garée. Sur votre droite se trouve un établi. Monsieur Olive, les bras croisés, est assis sur le capot de la voiture.
+	</Description>
+	<Neighbors>
+		<Room>
+			<Name>Hall</Name>
+		</Room>
+	</Neighbors>
+	<Items>
+		<Item>
+			<Name>Etabli</Name>
+			<Description>
+				Vous vous approchez de l’établi. Celui-ci est poussiéreux, sauf sur la poignée d’un des tiroirs. Vous ouvrez ce tiroir et trouvez à l’intérieur une corde ! 
+			</Description>
+		</Item>
+		<Item>
+			<Name>Voiture</Name>
+			<ExtraTime>20</ExtraTime>
+			<Description>
+				Vous vous tournez vers la voiture, et remarquez que vous êtes face à une McLaren F1, juste comme dans vos rêves les plus fous ! Ce n’est pas raisonnable, mais le docteur ne risque plus d’user ses pneus… Vous prenez 20 minutes supplémentaires pour essayer ce beau bolide. 
+			</Description>
+		</Item>
+		<Weapon>
+			<Name>Corde</Name>
+			<Requirement>Etabli</Requirement>
+			<Description>
+				Vous attrapez la corde dans le tiroir de l’établi. Elle semble bien usée. Vous trouvez des cheveux blonds ainsi que des bouts d’ongles roses accrochés dans son tissage.
+			</Description>
+		</Weapon>
+	</Items>
+	<NPCs>
+		<Suspect>
+			<Name>Monsieur Olive</Name>
+			<Description>
+				Monsieur Olive est un homme grand et avec un fort embonpoint, d’environ 40 ans. Il est chauve et porte simplement un jean avec une chemise verte, ainsi que des mocassins. 
+			</Description>
+			<Talk>
+				Moi ? Je suis innocent, je vous assure. Mais je peux vous dire une chose : je suis sûr que c’est Éleanor qui l’a tué, j’ai entendu dire qu’elle s’était disputée avec Georges la semaine dernière !
+			</Talk>
+			<SpecialTalk>
+				<Requirement>Matraque</Requirement>
+				<Talk>
+					Vous savez, pour réussir, il faut savoir travailler avec les bonnes personnes… Et agir efficacement, pour satisfaire le client… Enfin, vous voyez ce que je veux dire… J’ai travaillé avec Georges pour un client un peu… Difficile… Et comme lui, j’ai peur d’être poursuivi, alors je me protège comme je peux…
+				</Talk>
+			</SpecialTalk>
+		</Suspect>
+	</NPCs>
+</Room>

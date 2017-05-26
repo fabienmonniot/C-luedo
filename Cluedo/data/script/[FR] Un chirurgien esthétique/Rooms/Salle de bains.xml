@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Room>
+	<Name>Salle de bains</Name>
+	<Description>
+		En entrant dans la salle de bains, vous observez des traces de coups un peu partout, sur les murs, le lavabo, les toilettes et la baignoire. Ces traces sont certainement dues à une lutte du docteur Lenoir face à son agresseur. Vous voyez également une trappe au plafond.
+	</Description>
+	<Neighbors>
+		<Room>
+			<Name>Chambre</Name>
+		</Room>
+		<Room>
+			<Name>Cuisine</Name>
+			<TrapDoor>True</TrapDoor>
+		</Room>
+	</Neighbors>
+	<Items>
+		<Item>
+			<Name>Lavabo</Name>
+			<Description>
+				Le lavabo est dans un état pitoyable, mais vous vous convainquez d’aller y voir de plus près. Sur le bord de celui-ci, entre des débris ensanglantés de tous genres et des bouts de tuyaux, sur une petite caisse à outils, vous trouvez une clé anglaise !
+			</Description>
+		</Item>
+		<Item>
+			<Name>Baignoire</Name>
+			<Description>
+				Vous vous frayez un chemin jusqu’à la baignoire au milieu de ce champ de bataille. Mais elle est étonnamment vide, et même parfaitement propre. Ne serait-ce pas encore plus suspect ? 
+			</Description>
+		</Item>
+		<Item>
+			<Name>Toilettes</Name>
+			<Description>
+				A peine ouvrez-vous la cuvette des toilettes que vous les refermez tout de suite. Il y en a un qui a dû passer une mauvaise soirée hier...
+			</Description>
+		</Item>
+		<Weapon>
+			<Name>Clé anglaise</Name>
+			<Requirement>Lavabo</Requirement>
+			<Description>
+				Vous vous munissez de la clé anglaise. En la soulevant, vous remarquez une grosse trace de chaussure boueuse sur la caisse à outils. À y voir de plus près, cette trace vous fait penser à une semelle de chaussure militaire.
+			</Description>
+		</Weapon>
+	</Items>
+</Room>

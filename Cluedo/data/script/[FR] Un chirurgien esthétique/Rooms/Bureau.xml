@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Room>
+	<Name>Bureau</Name>
+	<Description>
+		Vous arrivez dans le bureau, où se trouve Madame Pervenche, assise sur le fauteuil du bureau. Une grande bibliothèque recouvre le mur gauche de la pièce. Une baie vitrée permet de sortir directement dans le jardin.
+	</Description>
+	<Neighbors>
+		<Room>
+			<Name>Salon</Name>
+		</Room>
+		<Room>
+			<Name>Jardin</Name>
+		</Room>
+	</Neighbors>
+	<Items>
+		<Item>
+			<Name>Bureau</Name>
+			<Description>
+				Vous parcourez rapidement des yeux le désordre apparent sur le bureau. Puis vous ouvrez le premier tiroir du bureau, et y trouvez un revolver !
+			</Description>
+			<SpecialDescription>
+				<Requirement>Monsieur Olive</Requirement>
+				<Description>
+					Vous décidez d’examiner le bureau plus en profondeur. Vous ouvrez les tiroirs, jetez un oeil aux papiers… Et trouvez des preuves des magouilles orchestrées par le docteur Lenoir et Monsieur Olive !
+				</Description>
+			</SpecialDescription>
+		</Item>
+		<Item>
+			<Name>Bibliothèque</Name>
+			<ExtraTime>10</ExtraTime>
+			<Description>
+				Vous vous approchez de la bibliothèque. Vous ouvrez chaque livre, à la recherche d’un faux livre avec un indice à l’intérieur, jusqu’à trouver le livre préféré de votre enfance. Vous prenez 10 minutes supplémentaires pour en lire un bout et vous replonger dans ces tendres années…
+			</Description>
+		</Item>
+		<Weapon>
+			<Name>Revolver</Name>
+			<Requirement>Bureau</Requirement>
+			<Description>
+				En empoignant le revolver, vous lisez son numéro de série. Vous vous empressez de passer un coup de téléphone rapide à votre équipe pour en connaître le propriétaire. La réponse est sans appel : ce revolver appartient au Professeur Violet.
+			</Description>
+		</Weapon>
+	</Items>
+	<NPCs>
+		<Suspect>
+			<Name>Madame Pervenche</Name>
+			<Description>
+				Madame Pervenche est une femme d’une trentaine d’années, blonde, mince et de taille moyenne. Portant une robe élégante et des escarpins, elle a toutefois une petite blessure au front et le poignet égratigné.
+			</Description>
+			<Talk>
+				J’ai bien essayé de lui montrer la bonne voie, mais je suis persuadée qu’il est rentré dans les magouilles de Jacob. Je suis sûre que c’est de sa faute…
+			</Talk>
+			<SpecialTalk>
+				<Requirement>Corde</Requirement>
+				<Talk>
+					Ce doit être la corde que Georges a utilisé pour installer sa balançoire la semaine dernière. Je lui ai rendu visite alors qu’il venait juste de finir de l’installer et il m’a proposé de l’essayer. Mais elle s’est brisée dès mon premier élan et j’en suis tombée. Comme vous pouvez le voir, j’en ai gardé une belle égratignure.
+				</Talk>
+			</SpecialTalk>
+		</Suspect>
+	</NPCs>
+</Room>

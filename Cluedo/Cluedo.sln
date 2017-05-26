@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cluedo", "Cluedo.csproj", "{F638D15D-6F2D-4423-B5F2-B0C13AD8611B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F638D15D-6F2D-4423-B5F2-B0C13AD8611B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F638D15D-6F2D-4423-B5F2-B0C13AD8611B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F638D15D-6F2D-4423-B5F2-B0C13AD8611B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F638D15D-6F2D-4423-B5F2-B0C13AD8611B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

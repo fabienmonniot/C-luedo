@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Room>
+	<Name>Chambre</Name>
+	<Description>
+		Dans la chambre, vous voyez le Professeur Violet assis sur un lit double. De chaque côté du lit se trouve une table de chevet. Une armoire et une commode leur font face. Dans un renfoncement se trouve un petit bureau avec une chaise.
+	</Description>
+	<Neighbors>
+		<Room>
+			<Name>Hall</Name>
+		</Room>
+		<Room>
+			<Name>Salle de bains</Name>
+		</Room>
+	</Neighbors>
+	<Items>
+		<Item>
+			<Name>Armoire</Name>
+			<Description>
+				Vous ouvrez la grande armoire. Celle-ci est remplie de vêtements en tout genre, et parfois d’un goût très… différent du vôtre disons. 
+			</Description>
+		</Item>
+		<Item>
+			<Name>Commode</Name>
+			<Description>
+				D’un pas d’expert, vous vous élancez vers la commode. Vous ouvrez un premier tiroir et bingo ! Ah non, ce sont juste des menottes en velours…
+			</Description>
+		</Item>
+		<Item>
+			<Name>Lit</Name>
+			<ExtraTime>50</ExtraTime>
+			<Description>
+				Vous êtes comme aimanté au lit, entraîné par la force suprême de la sieste. Vous tombez tranquillement dans les bras de Morphée. Peu de temps après, vous ouvrez les yeux : cela fait déjà une heure que vous vous êtes assoupi. Vous vous relevez difficilement pour continuer votre enquête.
+			</Description>
+		</Item>
+		<Item>
+			<Name>Tables de chevet</Name>
+			<Description>
+				Votre flair vous amène à inspecter les tables de chevet de chaque côté du lit. Vous ouvrez les tiroirs et trouvez une matraque !
+			</Description>
+		</Item>
+		<Item>
+			<Name>Petit bureau</Name>
+			<Description>
+				Vous vous avancez vers le petit bureau au fond de la chambre. Vous l’examinez longuement et sous tous ses angles, mais ne trouvez qu’un trombone qui traîne dans un coin. Quelle perte de temps...
+			</Description>
+		</Item>
+		<Weapon>
+			<Name>Matraque</Name>
+			<Requirement>Tables de chevet</Requirement>
+			<Description>
+				Vous vous emparez de la matraque et l’observez à l’aide de votre lampe à lumière ultraviolette. Celle-ci fait apparaître des traces de doigts, que vous envoyez par photo via votre téléphone au laboratoire. La réponse est immédiate : vos collègues ont identifié très clairement l’empreinte digitale de Monsieur Olive.
+			</Description>
+		</Weapon>
+	</Items>
+	<NPCs>
+		<Suspect>
+			<Name>Professeur Violet</Name>
+			<Description>
+				Professeur Violet est un jeune homme d’environ 25 ans. Mince et de taille moyenne, il porte un costume noir avec des richelieus. Ses cheveux violets et ses lunettes atypiques lui donnent un style excentrique. Il est victime d’un trouble obsessionnel du comportement, qui le force à cligner des yeux fortement et régulièrement.
+			</Description>
+			<Talk>
+				J’ai rencontré Georges et ses "amis" il y a peu de temps, mais vous savez, ils sont tous plus faux-culs les uns que les autres… Selon moi, ils pourraient tous l’avoir fait.
+			</Talk>
+			<SpecialTalk>
+				<Requirement>Revolver</Requirement>
+				<Talk>				
+					Oui, en effet, il s’agit de mon revolver. Je l’ai prêté à Georges il y a quelques semaines. Il m’a appelé en détresse en me disant qu’il avait reçu des menaces anonymes et ne se sentait pas en sécurité.
+				</Talk>
+			</SpecialTalk>
+		</Suspect>
+	</NPCs>
+</Room>

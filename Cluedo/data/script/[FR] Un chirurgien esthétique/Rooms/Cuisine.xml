@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Room>
+	<Name>Cuisine</Name>
+	<Description>
+		Vous entrez dans la cuisine. Vous voyez au premier coup d’oeil un frigo, un évier et une gazinière. Sur les plans de travail se trouvent quelques petits appareils électroménagers. Le Colonel Moutarde est appuyé sur une machine à laver, à gauche de l’ouverture. Une trappe au plafond est entrouverte.
+	</Description>
+	<Neighbors>
+		<Room>
+			<Name>Salle à manger</Name>
+		</Room>
+		<Room>
+			<Name>Salle de bains</Name>
+			<TrapDoor>True</TrapDoor>
+		</Room>
+	</Neighbors>
+	<Items>
+		<Item>
+			<Name>Frigo</Name>
+			<Description>
+				Vous ouvrez le frigo, duquel se dégage une odeur forte. A l’intérieur de celui-ci, vous trouvez de nombreux plateaux de fromages et une grappe de raisin. Rien de suspect...
+			</Description>
+		</Item>
+		<Item>
+			<Name>Evier</Name>
+			<Description>
+				Vous vous approchez de l’évier. Celui-ci est couvert de sang encore frais. Vous trouvez un poignard au fond de l’évier !
+			</Description>
+		</Item>
+		<Item>
+			<Name>Gazinière</Name>
+			<Description>
+				Vous remarquez que la gazinière est encore allumée. En vous approchant, vous voyez une simple casserole remplie d’eau bouillante. Vous éteignez le feu. Vous aurez au moins fait une bonne action...
+			</Description>
+		</Item>
+		<Item>
+			<Name>Machine à laver</Name>
+			<Description>
+				La machine à laver attire votre oeil affuté. Vous décidez de regarder à l’intérieur. Mais vous n’y trouvez que quelques vêtements sales sans grand intérêt.
+			</Description>
+		</Item>
+		<Weapon>
+			<Name>Poignard</Name>
+			<Requirement>Evier</Requirement>
+			<Description>
+				Vous prenez le poignard, et remarquez que ce n’est rien d’autre qu’un vulgaire couteau de cuisine, quoiqu’un peu rouillé.
+			</Description>
+		</Weapon>
+	</Items>
+	<NPCs>
+		<Suspect>
+			<Name>Colonel Moutarde</Name>
+			<Description>
+				Le Colonel Moutarde est un homme roux très grand d’environ 55 ans. Costaud, il semble être sportif. Il porte un uniforme avec des rangers boueuses.
+			</Description>
+			<Talk>
+				Georges est mon ami depuis toujours. On était à l’école ensemble et on était inséparable jusqu’à ce que je parte à l’armée. Il m’a toujours un peu voulu de l’avoir laissé, mais depuis que j’ai pris ma retraite, je fais tout pour rattraper le temps perdu.
+			</Talk>
+			<SpecialTalk>
+				<Requirement>Clé anglaise</Requirement>
+				<Talk>
+					Oui, j’ai utilisé cette clé anglaise pour refaire la tuyauterie du lavabo, dans la salle de bains. Il était vieux et Georges m’a demandé un coup de main pour le remettre à neuf. D’ailleurs, je me suis blessé en faisant ça.
+				</Talk>
+			</SpecialTalk>
+		</Suspect>
+	</NPCs>
+</Room>

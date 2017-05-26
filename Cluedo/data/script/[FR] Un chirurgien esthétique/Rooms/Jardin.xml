@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Room>
+	<Name>Jardin</Name>
+	<Description>
+		Vous ressortez dans le jardin. Le policier vous attend à l’ombre du pommier. Une balançoire cassée est posée au pied de l’arbre.
+	</Description>
+	<Neighbors>
+		<Room>
+			<Name>Hall</Name>
+		</Room>
+		<Room>
+			<Name>Bureau</Name>
+		</Room>
+	</Neighbors>
+	<NPCs>
+		<Policeman>
+			<Name>Commissaire Hammer</Name>
+			<Introduction>
+				<Talk>Vous êtes enfin là détective... </Talk><Narrator>(Entrez votre nom) [ASK_NAME]</Narrator><Talk>Ah oui détective [PRINT_NAME], je vous attendais ! Comme vous le savez, le très célèbre chirurgien Georges Lenoir a été assassiné cette nuit dans sa salle de bains. Il fêtait son départ mérité à la retraite hier soir, et 6 personnes étaient présentes à son cocktail.
+				Voici les premières informations que j’ai pu récupérer sur eux :
+				- Cassandra Rose est une jeune actrice. Charmeuse, splendide, enfin vous verrez de vous-même...
+				- Jacques Moutarde est un retraité de l’armée de terre, aujourd’hui coach sportif de l’équipe nationale de rugby.
+				- Diane Leblanc a connu la célébrité dès son plus jeune âge pour son rôle principal dans un film mondialement connu. Aujourd’hui totalement oubliée, elle cherche à tout prix à se refaire une place sous les projecteurs.
+				- Jacob Olive est un homme politique très influent, qui arrive toujours à ses fins bien qu’on ne sache jamais comment. Il est connu pour son tempérament sanguin et virulent.
+				- Eleanor Pervenche est issue d’une famille riche de politiciens très opposée aux idées de Jacob Olive. Difficile à cerner, elle sait rester impassible en toute circonstance.
+				- Victor Violet est un autodidacte du jeu vidéo devenu milliardaire du jour au lendemain grâce à un jeu adulé par toute une génération.
+				Je les ai placés chacun dans une pièce différente du manoir pour ne pas qu’ils puissent discuter entre eux. 
+				Je vous en prie, prenez ce talkie walkie pour qu’on puisse rester en contact. Vous pouvez entrer, bon courage, [PRINT_NAME].</Talk>
+			</Introduction>
+			<Reactions>
+				<Talk>
+					Alors, ça avance ?
+				</Talk>
+				<Talk>
+					Ça en est où détective ?
+				</Talk>
+				<Talk>
+					Vous savez qui c’est ?
+				</Talk>
+			</Reactions>
+			<DaughterArriveTalk>
+				<Narrator>Votre talkie-walkie grésille. Vous l’attrapez et écoutez la voix du commissaire : </Narrator>
+				<Talk>Inspecteur [PRINT_NAME], la fille du docteur vient d’arriver ! Elle est disponible jusqu’à 13h pour manger avec vous, si vous le souhaitez. Elle se trouve avec moi, dans le jardin du manoir.</Talk>
+			</DaughterArriveTalk>
+			<RightAnswer>
+				<Narrator>Policier : </Narrator><Talk>Allons l’interroger ensemble</Talk>
+				<Narrator>Vous retournez dans le salon avec le policier.
+				Policier : </Narrator><Talk>Mademoiselle, vous êtes en état d’arrestation. Vous avez le droit de garder le silence. Si vous renoncez à ce droit, tout ce que vous direz pourra être et sera utilisé contre vous devant une cour de justice. Vous avez le droit à un avocat et si vous n'en avez pas les moyens, un avocat vous sera fourni d’office.</Talk>
+				<Narrator>Mademoiselle Rose : </Narrator><Talk>Mais vous ne comprenez pas… À cause de lui je n’ai pas pu participer au grand défilé de la fashion week de New York. La dernière fois qu’il m’a opérée il m’a complètement défigurée, je ne pourrai plus jamais monter sur un podium… Ma vie est gâchée à cause de lui. Je ne pouvais pas rester sans rien faire, il fallait que je lui fasse comprendre…</Talk>
+				<Narrator>Le policier la stoppe, lui met les menottes et l’entraîne à l’arrière de sa voiture. Juste avant de prendre le volant, il vous donne une tape sur l’épaule et vous dit :</Narrator>
+				<Talk>Félicitations Inspecteur [PRINT_NAME], je savais que je pouvais compter sur vous. Vous avez été encore une fois à la hauteur de votre réputation, et quelle rapidité ! Merci pour votre travail, et bonne continuation dans votre aventure du crime !</Talk>
+			</RightAnswer>
+			<WrongAnswer>
+				<Talk>J’ai trouvé un élément qui vient à l’encontre de votre accusation. Êtes-vous au moins le célèbre Inspecteur [PRINT_NAME], qui ne se trompe jamais ? Sortez d’ici, je vous retire de cette affaire.</Talk>
+			</WrongAnswer>
+		</Policeman>
+		<Daughter>
+			<Name>Fille du docteur</Name>
+			<Talk>
+				Cette nouvelle m’a profondément touchée. Mon père était très important pour moi. Mais je ne vais pas vous mentir, je redoutais que ça arrive. Vous savez, dans ce milieu-là, on peut s’attendre à tout. C’est pour ça que j’ai essayé de m’en éloigner, et mon père l’a un peu mal pris au début. Mais depuis qu’il travaille moins, nos liens sont redevenus aussi forts qu’avant. Il se confie beaucoup à moi et entre nous, mon père m’a avoué vouloir prendre sa retraite parce qu’il se faisait vieux et qu’il n’était plus aussi bon qu’avant.
+			</Talk>
+		</Daughter>
+	</NPCs>
+</Room>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Room>
+	<Name>Hall</Name>
+	<Description>
+		Vous entrez dans le hall, pièce centrale du manoir dans laquelle se trouve une énorme peau d’animal au sol. Vous y trouvez un aquarium sur le côté, une petite plante exotique ainsi qu’un vétuste meuble sur lequel est posé un téléphone fixe.
+	</Description>
+	<Neighbors>
+		<Room>
+			<Name>Garage</Name>
+		</Room>
+		<Room>
+			<Name>Salon</Name>
+		</Room>
+		<Room>
+			<Name>Chambre</Name>
+		</Room>
+		<Room>
+			<Name>Salle à manger</Name>
+		</Room>
+		<Room>
+			<Name>Jardin</Name>
+		</Room>
+	</Neighbors>
+	<Items>
+		<Item>
+			<Name>Aquarium</Name>
+			<Description>
+				L’aquarium vous apparaît soudain très suspect. Il vous semble évident qu’il s’y cache quelque chose. Vous vous approchez de l’aquarium et apercevez une grosse murène vous fixant du regard. Vous faites un bond en arrière et vous éloignez rapidement en vérifiant que personne ne vous a vu.
+			</Description>
+		</Item>
+		<Item>
+			<Name>Peau d'animal</Name>
+			<Description>
+				Vous vous agenouillez devant la peau d’animal et vous l’examinez longuement et dans les moindres détails, pour finalement vous rendre compte que vous avez juste perdu votre temps. 
+			</Description>
+		</Item>
+		<Item>
+			<Name>Plante</Name>
+			<Description>
+				Vous regardez la plante au coin de la pièce avec antipathie. Vous vous en approchez finalement, sans grande conviction et sentez une odeur d’urine s’en dégager. Il ne vous en faut pas plus pour suspendre votre inspection.
+			</Description>
+		</Item>
+		<Item>
+			<Name>Meuble à téléphone</Name>
+			<Description>
+				Le meuble à téléphone attire tout particulièrement votre attention. Qui donc a inventé ce type de téléphone orange luminescent ? Vous venez de trouver une preuve, mais juste une preuve de mauvais goût...
+			</Description>
+			<SpecialDescription>
+				<Requirement>Professeur Violet</Requirement>
+				<Description>
+					Vous décrochez le téléphone et écoutez la messagerie, sans grande conviction. Au bout de quelques messages ennuyeux, vous vous découragez mais en écoutez un dernier. Vous entendez alors des menaces envers le docteur Lenoir !
+				</Description>
+			</SpecialDescription>
+		</Item>
+	</Items>
+</Room>

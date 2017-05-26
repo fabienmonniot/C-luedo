@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Game>
+	<Help>
+		<Title>AIDE</Title>
+		<Content>
+			Inspecteur [PRINT_NAME], il vous faut trouver qui est l’assassin et quelle est l’arme du crime avant que l’histoire ne s’ébruite : vous avez jusqu’à 18h pour résoudre cette affaire !
+
+			Dans chaque pièce du manoir, vous pouvez choisir entre différentes actions qui vous permettront d’obtenir des indices sur le meurtrier et son arme mais qui prennent un certain temps à être effectuées :
+			- Vous déplacer dans une pièce avoisinante prend 10 minutes
+			- Observer un objet ou une personne vous prend 10 minutes
+			- Ramasser un objet vous prend 10 minutes
+			- Discuter avec une personne vous prend 20 minutes
+
+			Vous pouvez également, sans perdre une seconde :
+			- Lire votre bloc-notes, où seront automatiquement stockées toutes les informations déjà récoltées (sur les suspects, les pièces, les discussions, etc.)
+			- Lire et relire cette aide autant que vous le souhaitez (profitez-en, c’est gratuit)
+
+			Comment faire ?
+			Il vous suffit de rentrer le chiffre correspondant à l’action que vous souhaitez effectuer et d’appuyer sur la touche “Entrée”. 
+			Si, une fois l’objet/personnage choisi, aucune des actions disponibles ne vous inspire, vous pouvez retourner à l’accueil de la pièce. 
+			Si aucune action disponible ne vous inspire dans une pièce, vous pouvez vous déplacer dans une autre pièce.
+
+			Petites astuces de jeu, rien que pour vous :
+			- Certains objets et certains personnages vous retiendront peut-être plus longtemps que prévu…
+			- Effectuer certaines actions peut en débloquer d’autres… (Par exemple, vous ne pouvez ramasser une arme que si vous l’avez préalablement découverte…)
+		</Content>
+	</Help>
+	<StartRoom>
+		<Name>Hall</Name>
+	</StartRoom>
+	<Killer>
+		<Suspect>
+			<Name>Mademoiselle Rose</Name>
+		</Suspect>
+		<Weapon>
+			<Name>Corde</Name>
+		</Weapon>
+	</Killer>
+	<Sentences>
+		<AskNumber>Veuillez entrer un entier compris dans la liste (entre [X] et [Y]).</AskNumber>
+		<YesOrNo>(o/n)</YesOrNo>
+		<Replay>Souhaitez-vous faire une nouvelle partie ?</Replay>
+		<AccuseKiller>Qui suspectez-vous ?</AccuseKiller>
+		<AccuseWeapon>Avec quelle arme ?</AccuseWeapon>
+		<MemoTitle>BLOC-NOTES</MemoTitle>
+		<ChangeRoom>Dans quelle pièce souhaitez-vous vous rendre ?</ChangeRoom>
+		<KnowMore>Sur quoi voulez-vous en savoir plus ?</KnowMore>
+		<TrapDoor>Passage secret</TrapDoor>
+		<WhichAction>Quelle action décidez-vous d'effectuer ?</WhichAction>
+		<Actions>
+			<Observe>Observer</Observe>
+			<Collect>Ramasser</Collect>
+			<SpecialObserve>Observer plus en détail</SpecialObserve>
+			<Talk>Parler</Talk>
+			<SpecialTalk>Demander plus d'informations</SpecialTalk>
+			<Accuse>Accuser</Accuse>
+			<ReadMemo>Afficher le bloc-notes</ReadMemo>
+			<Help>Afficher de l'aide</Help>
+			<Move>Rien ? Continuer dans une autre pièce.</Move>
+			<None>Annuler</None>
+		</Actions>
+		<PolicemanEnd>C'est la fin de la journée, le policier vient à votre rencontre...</PolicemanEnd>
+	</Sentences>
+</Game>
