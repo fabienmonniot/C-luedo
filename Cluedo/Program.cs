@@ -167,6 +167,7 @@ namespace Cluedo
         /// </summary>
         public static void GetLastGame()
         {
+            Directory.CreateDirectory(SavesPath);
             var fullPathSaves = Directory.GetFiles(SavesPath);
 
             //If at least one save
