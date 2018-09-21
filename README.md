@@ -25,6 +25,6 @@ A 18h au plus tard, la partie est terminée. Si l'inspecteur n’est pas encore 
 ## Téléchargement
 
 C#luedo est un exécutable Windows. Il a été testé sur Windows 7 et 10.
-Vous pouvez le télécharger ici : [https://github.com/fabienmonniot/C-luedo](https://github.com/fabienmonniot/C-luedo)
+Vous pouvez le télécharger ici : ![https://github.com/fabienmonniot/C-luedo](https://github.com/fabienmonniot/C-luedo)
 
 Conçu et développé par Louise Mathieu & Fabien Monniot
