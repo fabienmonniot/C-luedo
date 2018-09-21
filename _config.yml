@@ -1,4 +1,4 @@
 theme: jekyll-theme-cayman
 title: C#luedo
 description: Le Cluedo revisité en lignes de commandes
-show_downloads: "true"
+show_downloads: "false"
