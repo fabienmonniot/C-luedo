@@ -24,9 +24,9 @@ Si l'accusation est juste la partie est gagnée, sinon elle est perdue. Le joueu
 
 A 18h au plus tard, la partie est terminée. Si l'inspecteur n’est pas encore retourné dans le jardin pour accuser un des suspects et donner l'arme du crime, le policier le joint à l’aide du talkie walkie et lui demande son verdict final.
 
-## Téléchargement
+## Plateforme
 
 C#luedo est un exécutable Windows. Il a été testé sur Windows 7 et 10.
 Vous pouvez le télécharger ici : [https://github.com/fabienmonniot/C-luedo](https://github.com/fabienmonniot/C-luedo)
 
-Conçu et développé par Louise Mathieu & Fabien Monniot
+C#luedo a été conçu et développé par Louise Mathieu et Fabien Monniot.
