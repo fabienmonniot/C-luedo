@@ -27,6 +27,6 @@ A 18h au plus tard, la partie est terminée. Si l'inspecteur n’est pas encore 
 ## Plateforme
 
 C#luedo est un exécutable Windows. Il a été testé sur Windows 7 et 10.
-Vous pouvez le télécharger ici : [https://github.com/fabienmonniot/C-luedo](https://github.com/fabienmonniot/C-luedo)
+Vous pouvez le télécharger ici : [Archive .zip](C#luedo.zip)
 
 C#luedo a été conçu et développé par Louise Mathieu et Fabien Monniot.
