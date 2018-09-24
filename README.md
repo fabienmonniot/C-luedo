@@ -28,6 +28,8 @@ A 18h au plus tard, la partie est terminée. Si l'inspecteur n’est pas encore 
 
 ## Plateforme
 
+![Interface du logiciel](interface.png)
+
 C#luedo est un exécutable Windows. Il a été testé sur Windows 7 et 10.
 Vous pouvez le télécharger dans sa version exécutable ici : [C-luedo.zip](C-luedo.zip)
 
